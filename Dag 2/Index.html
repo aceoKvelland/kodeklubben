@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>   
+<head>
+    <title>Dag 2 - Kodekurs</title>
+    <style>
+        body {
+            background-color: black;
+            color: darkslategray;
+        }
+        .espensKlasse {
+            color: lightgreen;
+            background: hotpink;
+            border-style: solid;
+            border-color: aqua;   
+            border-left-color: bisque;
+            border-bottom-width: 45px;
+        }
+        
+          .picture {
+            width: 30%;           
+        }
+        .picture-frame {
+            padding:8px;
+            border:solid;
+            border-color: #aaaaaa #aaaaaa #aaaaaa #aaaaaa;
+            border-width: 2px 2px 2px 2px;
+            background-color:white;
+        }
+        .text-neon {
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+            font-size: xx-large;
+        }
+        
+        .text-fire {
+            text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #feec85, -20px -20px 40px #ffae34, 20px -40px 50px #ec760c, -20px -60px 60px #cd4606, 0 -80px 70px #973716, 10px -90px 80px;
+        }
+        
+        
+        .gradientBoxesWithOuterShadows { 
+            height: 200px;
+            width: 400px; 
+            padding: 20px;
+            background-color: white; 
+
+            /* outer shadows  (note the rgba is red, green, blue, alpha) */
+            -webkit-box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.4); 
+            -moz-box-shadow: 0px 1px 6px rgba(23, 69, 88, .5);
+
+            /* rounded corners */
+            -webkit-border-radius: 12px;
+            -moz-border-radius: 7px; 
+            border-radius: 7px;
+
+            /* gradients */
+            background: -webkit-gradient(linear, left top, left bottom, 
+            color-stop(0%, white), color-stop(15%, white), color-stop(100%, #D7E9F5)); 
+            background: -moz-linear-gradient(top, white 0%, white 55%, #D5E4F3 130%); 
+            }
+    </style>
+</head>
+<body>
+    <h1 class="text-fire">Espen Moen Kvelland</h1>
+    <h1 class="text-neon">Neon tekst</h1>
+    <hr>
+<p>Mitt navn er Espen Moen Kvelland, jeg er 36 år gammel og bor i Skien. Jeg har 2 barn, er gift. Her er ett bilde av mine barn</p>
+<img src="bilder/familie.jpg" alt="bilde av barna" class="picture picture-frame">
+
+</body>
+</html>
